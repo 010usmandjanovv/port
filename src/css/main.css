@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #014e56;
+  font-family: "Livvic", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: inline-block;
+}
+
+span {
+  display: inline-block;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  padding: 30px 0;
+  margin-bottom: 90px;
+}
+.header .header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header-list {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.header .header-img {
+  margin-right: 25px;
+}
+.header .header-link {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 156%;
+  color: white;
+}
+.header .header-btn {
+  padding: 12px 35px;
+  border-radius: 50px;
+  border: 2px solid white;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 156%;
+  color: white;
+}
+
+.hero {
+  margin-bottom: 200px;
+  max-width: 1200px;
+  height: 200px;
+}
+.hero .hero-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.hero .left-title {
+  font-family: "Livvic", sans-serif;
+  width: 535px;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100%;
+  color: white;
+}
+.hero .color {
+  color: #f67e7e;
+}
+.hero .line {
+  display: block;
+  transform: translateY(-100px);
+  width: 50px;
+  height: 4px;
+  background: #79c8c7;
+}
+.hero .right-title {
+  color: white;
+  width: 445px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 156%;
+}
+
+.build {
+  max-width: 1200px;
+  height: 670px;
+  background: #012f34;
+  color: white;
+  margin-bottom: 150px;
+}
+.build .build-box {
+  padding: 50px;
+  max-width: 1110px;
+  height: 404px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+.build .left-line {
+  display: block;
+  width: 50px;
+  height: 4px;
+  background: #f67e7e;
+  margin-bottom: 80px;
+}
+.build .left-title {
+  width: 445px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+}
+.build .right-list {
+  padding-top: 375px;
+}
+.build .right-item {
+  margin-bottom: 40px;
+}
+.build .right-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 156%;
+  color: #f67e7e;
+  margin-bottom: 20px;
+}
+.build .right-text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 167%;
+}
+
+.order {
+  max-width: 1200px;
+  height: 600px;
+}
+.order .order-title {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 60px;
+}
+.order .title-color {
+  color: #79c8c7;
+}
+.order .order-list {
+  display: flex;
+  gap: 30px;
+}
+.order .order-item {
+  text-align: center;
+  width: 370px;
+  height: 220px;
+  color: white;
+}
+.order .order-top-text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 167%;
+  margin-bottom: 20px;
+}
+.order .order-item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 156%;
+  color: #79c8c7;
+}
+.order .order-bottom-title {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 138%;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=main.css.map */
